@@ -5,7 +5,7 @@ class positionClass:
 #Função lê o arquivo, fecha ele e ainda trata os dados para serem usados no futuro
 def readFile():
 
-    with open('entrada.txt', 'r') as file:
+    with open('entrada-questao1.txt', 'r') as file:
         fileLines = file.readlines()
         file.close()
 
