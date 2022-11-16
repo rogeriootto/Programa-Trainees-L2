@@ -1,0 +1,13 @@
+.LatestMainDiv {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
