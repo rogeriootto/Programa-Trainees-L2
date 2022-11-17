@@ -1,13 +1,149 @@
 .LatestMainDiv {
     display: flex;
     flex-direction: column;
+}
 
+.LatestDivTitle {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3vw;
     color: white;
     font-style: normal;
     font-weight: 600;
     font-size: 2vw;
+}
+
+.LatestAuctionsMainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.Carousel {
+    display: flex;  
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    cursor: pointer;
+
+
+}
+
+.Carousel .item {
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 16px;
+    border: 2px solid #262840;
+
+    flex:none;
+
+}
+
+.Carousel .item .image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.Carousel .item .image img {
+    border-radius: 16px;
+}
+
+.Carousel .item .titleAndPrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.Carousel .item .titleAndPrice .title {
+    font-size: 20px;
+    width: 300px;
+}
+
+.Carousel .item .titleAndPrice .border {
+    background: rgba(81, 76, 255, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 14px;
     
-    margin-left: auto;
-    margin-right: auto;
-    
+}
+
+.Carousel .item .titleAndPrice .border .price {
+    font-size: 16px;
+    color: #514CFF;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.Carousel .item .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    font-family: 'Inter';
+    color: white;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding-bottom: 14px;
+    font-size: 14px;
+}
+
+.Carousel .item .time img {
+    padding-right: 8px;
+}
+
+.Carousel .item .dashed {
+    margin-bottom: 14px;
+    border: 1px solid #262840;
+}
+
+.Carousel .item .social {
+    display: flex;
+    flex-direction: row;
+    color: #7780A1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.Carousel .item .social .peopleImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Carousel .item .social .likes {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+
+    padding-left: 10px;
+    width: 70px;
+}
+
+.Carousel .item .social .likes img {
+    padding-right: 10px;
+}
+
+.LatestMainDiv button {
+    background-color: rgba(38, 40, 64, 0.8);
+    border: none;
+    margin-left: 80%;
+    margin-top: 400px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
 }

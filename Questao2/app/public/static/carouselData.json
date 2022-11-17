@@ -1,0 +1,121 @@
+[{
+    "id": "1",
+    "title": "Vulputate felis purus viverra morbi facilisi eget",
+    "price": "3.19",
+    "time": "2:41",
+    "peopleBidding": "35",
+    "likes": "120",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image-1.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/01.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/01-1.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/01-2.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/02.png"
+
+},
+{
+    "id": "2",
+    "title": "Dui accumsan leo vestibulum ornare eu",
+    "price": "1.11",
+    "time": "22:59",
+    "peopleBidding": "101",
+    "likes": "570",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image-2.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/02-1.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/02-2.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/02-3.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/03.png"
+
+},
+{
+    "id": "3",
+    "title": "Senectus adipiscing nascetur accumsan etiam",
+    "price": "1.63",
+    "time": "37:01",
+    "peopleBidding": "12",
+    "likes": "98",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/03-1.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/03-2.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/03-3.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/04.png"
+
+},
+{
+    "id": "4",
+    "title": "Fames habitasse risus ultricies tortor sit",
+    "price": "2.55",
+    "time": "22:59",
+    "peopleBidding": "101",
+    "likes": "50",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image-4.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/04-1.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/04-2.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/04-3.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/01-1.png"
+
+},
+{
+    "id": "5",
+    "title": "Vulputate felis purus viverra morbi facilisi eget",
+    "price": "3.19",
+    "time": "2:41",
+    "peopleBidding": "35",
+    "likes": "120",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image-1.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/01.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/01-1.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/01-2.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/02.png"
+
+},
+{
+    "id": "6",
+    "title": "Dui accumsan leo vestibulum ornare eu",
+    "price": "1.11",
+    "time": "22:59",
+    "peopleBidding": "101",
+    "likes": "570",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image-2.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/02-1.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/02-2.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/02-3.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/03.png"
+
+},
+{
+    "id": "7",
+    "title": "Senectus adipiscing nascetur accumsan etiam",
+    "price": "1.63",
+    "time": "37:01",
+    "peopleBidding": "12",
+    "likes": "98",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/03-1.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/03-2.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/03-3.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/04.png"
+
+},
+{
+    "id": "8",
+    "title": "Fames habitasse risus ultricies tortor sit",
+    "price": "2.55",
+    "time": "22:59",
+    "peopleBidding": "101",
+    "likes": "50",
+
+    "itemImage": "http://localhost:3000/static/CarouselImages/Image-4.png",
+    "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/04-1.png",
+    "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/04-2.png",
+    "peopleBiddingImage3" : "http://localhost:3000/static/CarouselImages/04-3.png",
+    "peopleBiddingImage4" : "http://localhost:3000/static/CarouselImages/01-1.png"
+
+}
+]
