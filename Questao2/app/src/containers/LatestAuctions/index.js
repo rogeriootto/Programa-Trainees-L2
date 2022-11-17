@@ -29,37 +29,39 @@ function LatestAuctions() {
                 {data.map((item) => {
                     const {id, title, price, time, peopleBidding, likes, itemImage, peopleBiddingImage1, peopleBiddingImage2, peopleBiddingImage3, peopleBiddingImage4} = item
                     return(
-                        <div className='item' key={id}>
-                            <div className='image'>
-                                <img src={itemImage} alt={title} />
-                            </div>
-                            <div className='titleAndPrice'>
-                                <span className='title'>{title}</span>
-                                <div className="border">
-                                    <span className='price'>{price} ETH</span>
+                        <a href={id}>
+                            <div className='item' key={id}>
+                                <div className='image'>
+                                    <img src={itemImage} alt={title} />
                                 </div>
-                            </div>
-                            <div className='time'>
-                                <img src='http://localhost:3000/static/CarouselImages/time-left.svg' alt='clock vector'></img>
-                                <span>{time} min left</span>
-                            </div>
-                            <hr className="dashed"></hr>
-                            <div className='social'>
-                                <div className='peopleImages'>
-                                    <div className='Images'>
-                                        <img src={peopleBiddingImage1} alt='' />
-                                        <img src={peopleBiddingImage2} alt='' />
-                                        <img src={peopleBiddingImage3} alt='' />
-                                        <img src={peopleBiddingImage4} alt='' />
+                                <div className='titleAndPrice'>
+                                    <span className='title'>{title}</span>
+                                    <div className="border">
+                                        <span className='price'>{price} ETH</span>
                                     </div>
-                                    <span className='peopleBidding'>{peopleBidding} people are bidding</span>
                                 </div>
-                                <div className='likes'>
-                                    <img src='http://localhost:3000/static/CarouselImages/likes.svg' alt='like vector'></img>
-                                    <span>{likes}</span>
+                                <div className='time'>
+                                    <img src='http://localhost:3000/static/CarouselImages/time-left.svg' alt='clock vector'></img>
+                                    <span>{time} min left</span>
+                                </div>
+                                <hr className="dashed"></hr>
+                                <div className='social'>
+                                    <div className='peopleImages'>
+                                        <div className='Images'>
+                                            <img src={peopleBiddingImage1} alt='' />
+                                            <img src={peopleBiddingImage2} alt='' />
+                                            <img src={peopleBiddingImage3} alt='' />
+                                            <img src={peopleBiddingImage4} alt='' />
+                                        </div>
+                                        <span className='peopleBidding'>{peopleBidding} people are bidding</span>
+                                    </div>
+                                    <div className='likes'>
+                                        <img src='http://localhost:3000/static/CarouselImages/likes.svg' alt='like vector'></img>
+                                        <span>{likes}</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     )
                 })}
             </div>
