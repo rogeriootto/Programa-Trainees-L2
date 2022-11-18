@@ -27,10 +27,10 @@ function LatestAuctions() {
             
             <div className='Carousel' ref={carousel}>
                 {data.map((item) => {
-                    const {id, title, price, time, peopleBidding, likes, itemImage, peopleBiddingImage1, peopleBiddingImage2, peopleBiddingImage3, peopleBiddingImage4} = item
+                    const {id, title, price, time, peopleBidding, likes, url, itemImage, peopleBiddingImage1, peopleBiddingImage2, peopleBiddingImage3, peopleBiddingImage4} = item
                     return(
-                        <a href={id}>
-                            <div className='item' key={id}>
+                        <div className='item' key={id}>
+                            <a href={url}>
                                 <div className='image'>
                                     <img src={itemImage} alt={title} />
                                 </div>
@@ -60,8 +60,8 @@ function LatestAuctions() {
                                         <span>{likes}</span>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     )
                 })}
             </div>

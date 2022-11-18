@@ -5,7 +5,7 @@
     "time": "2:41",
     "peopleBidding": "35",
     "likes": "120",
-
+    "url" : "1",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image-1.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/01.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/01-1.png",
@@ -20,7 +20,7 @@
     "time": "22:59",
     "peopleBidding": "101",
     "likes": "570",
-
+    "url" : "2",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image-2.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/02-1.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/02-2.png",
@@ -35,7 +35,7 @@
     "time": "37:01",
     "peopleBidding": "12",
     "likes": "98",
-
+    "url" : "3",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/03-1.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/03-2.png",
@@ -50,7 +50,7 @@
     "time": "22:59",
     "peopleBidding": "101",
     "likes": "50",
-
+    "url" : "4",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image-4.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/04-1.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/04-2.png",
@@ -65,7 +65,7 @@
     "time": "2:41",
     "peopleBidding": "35",
     "likes": "120",
-
+    "url" : "5",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image-1.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/01.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/01-1.png",
@@ -80,7 +80,7 @@
     "time": "22:59",
     "peopleBidding": "101",
     "likes": "570",
-
+    "url" : "6",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image-2.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/02-1.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/02-2.png",
@@ -95,7 +95,7 @@
     "time": "37:01",
     "peopleBidding": "12",
     "likes": "98",
-
+    "url" : "7",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/03-1.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/03-2.png",
@@ -110,7 +110,7 @@
     "time": "22:59",
     "peopleBidding": "101",
     "likes": "50",
-
+    "url" : "8",
     "itemImage": "http://localhost:3000/static/CarouselImages/Image-4.png",
     "peopleBiddingImage1" : "http://localhost:3000/static/CarouselImages/04-1.png",
     "peopleBiddingImage2" : "http://localhost:3000/static/CarouselImages/04-2.png",
