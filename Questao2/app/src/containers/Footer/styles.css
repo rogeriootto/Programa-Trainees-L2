@@ -1,0 +1,22 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    
+    width: 80%;
+    
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+
+    border: 1px solid #262840;
+    border-radius: 20px;
+}
+
+.Footer .dash {
+    border: 1px solid #262840;
+}
+

@@ -1,0 +1,45 @@
+.Statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 148px;
+    padding-bottom: 148px;
+    width: 60%;
+
+}
+
+.Statistics .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.Statistics .item img{
+    height: 32px;
+    width: 32px;
+}
+
+.Statistics .item .statistic {
+    padding-top: 10px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    color: #FFFFFF;
+}
+
+.Statistics .item .nameOfStatistic {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7780A1;
+
+}

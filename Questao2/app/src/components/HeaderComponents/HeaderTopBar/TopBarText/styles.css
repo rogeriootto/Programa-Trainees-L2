@@ -5,4 +5,6 @@
 .TopBarLink {
     display: flex;
     align-items: center;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
 }

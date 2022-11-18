@@ -44,10 +44,18 @@ function Header() {
                 </div>
 
                 <div className='HeaderLogotypes'>
-                    <Logotype1 />
-                    <Logotype2 />
-                    <Logotype3 />
-                    <Logotype4 />
+                    <div className='logo'>
+                        <Logotype1 />
+                    </div>
+                    <div className='logo'>
+                        <Logotype2 />
+                    </div>
+                    <div className='logo'>
+                        <Logotype3 />
+                    </div>
+                    <div className='logo'>
+                        <Logotype4 />
+                    </div>
                 </div>
 
             </div>

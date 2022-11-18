@@ -1,0 +1,81 @@
+.GetStarted {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+
+.GetStarted .image {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.dash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dash hr{
+    width: 80%;
+    border: 1px solid #262840;
+}
+
+
+.GetStarted .image .img2 {
+    right: 20px;
+    position: absolute;
+
+}
+
+
+.GetStarted .textsAndButtons .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.GetStarted .textsAndButtons .buttons .buttonStyle {
+    padding-right: 15px;
+}
+
+.GetStarted .textsAndButtons .texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.GetStarted .textsAndButtons .texts .overline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    color: #7780A1;
+
+    padding-bottom: 16px;
+}
+
+.GetStarted .textsAndButtons .texts .title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.GetStarted .textsAndButtons .texts .subTitle {
+    
+    padding-top: 16px;
+    padding-bottom: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+}

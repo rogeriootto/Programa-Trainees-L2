@@ -6,14 +6,12 @@
 
 .TopBar {
 
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 20px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .TopBarLogoDiv {
@@ -22,18 +20,22 @@
 
 .TopBarTextDiv {
 
-    width: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .TopBarButtonDiv {
-    width: 17%;
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
     
+}
+
+.TopBarButtonDiv a {
+    padding-left: 10px;
 }
 
 .HeaderResume {
@@ -81,8 +83,14 @@
     margin-right: auto;
 
     padding-bottom: 8%;
-    width: 35%;
+
+    width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.HeaderLogotypes .logo {
+    padding-left: 10px;
+    padding-right: 10px;
 }

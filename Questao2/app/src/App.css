@@ -13,6 +13,11 @@ a {
 }
 
 .container {
-	margin: 0 auto;
+	margin: auto auto;
   background-color: #0E1028;
+}
+
+body {
+  width: 100%;
+  height: 100%;
 }
