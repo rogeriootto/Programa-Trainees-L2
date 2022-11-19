@@ -1,14 +1,11 @@
 .Footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+
     color: white;
     
-    width: 80%;
-    
-    overflow-x: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 
     padding: 20px;
 
@@ -20,3 +17,135 @@
     border: 1px solid #262840;
 }
 
+.Footer .logoAndSupport {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Footer .logoAndSupport .logo img {
+    padding-right: 20px;
+}
+
+.Footer .logoAndSupport .support{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.Footer .logoAndSupport .support span {
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #7780A1;
+}
+
+.Footer .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.Footer .links .linksText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Footer .links .linksText span {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.Footer .links .button {
+    margin-top: 32px;
+    margin-bottom: 69px;
+    cursor: pointer;
+}
+
+.Footer .links .socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.Footer .links .socialMedia img {
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.Footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Footer .newsletter .text {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7780A1;
+}
+
+.Footer .newsletter .emailInput {
+    width: 500px;
+}
+
+.Footer .newsletter .emailInput input[type="text"] {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7780A1;
+
+    padding: 16px 32px;
+    box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+    border-radius: 16px 0 0 16px;
+    border: none;
+    outline: none;
+}
+
+.Footer .newsletter .emailInput input[type="submit"] {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2A27C9;
+
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15.5px 32px;
+
+    border-radius: 0 16px 16px 0;
+    background-color: white;
+}

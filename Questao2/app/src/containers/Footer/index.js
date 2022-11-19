@@ -47,7 +47,10 @@ function Footer() {
                     <span>Nibh volutpat, aliquam id sagittis elementum. Pellentesque laoreet velit, sed egestas in. Id nam semper dolor tellus vulputate eget turpis. </span>
                 </div>
                 <div className='emailInput'>
-                    <textarea></textarea>
+                    <form>
+                        <input type="text" name="" placeholder='Newsletter'></input>
+                        <input type="submit" name="" value="Sign in"></input>
+                    </form>
                 </div>
             </div>
         </div>

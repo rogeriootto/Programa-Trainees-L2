@@ -42,6 +42,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: radial-gradient(circle, #151120 15%, #060714 50%);
 }
 
 .HeaderMainText {
